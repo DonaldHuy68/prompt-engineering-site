@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Prompt Engineering Full Package cho SME | AI Solutions HCM</title>
+  <meta name="description" content="Dịch vụ thiết kế Prompt Engineering full-package cho SME ngành nha khoa, spa, chăm sóc sức khoẻ tại TP.HCM. Chuẩn AI, chuẩn SEO, tối ưu doanh thu." />
+
+  <!-- Font hỗ trợ tiếng Việt -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-dark: #0b1c2d;
+      --bg-card: #102a43;
+      --accent: #1dd3b0;
+      --text-main: #e6f1ff;
+      --text-sub: #9fb3c8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(120deg, #081a2b, #0b1c2d);
+      color: var(--text-main);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    header {
+      padding: 80px 10%;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Circuit animation background */
+    header::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(90deg, rgba(29,211,176,0.08) 1px, transparent 1px),
+        linear-gradient(rgba(29,211,176,0.08) 1px, transparent 1px);
+      background-size: 40px 40px;
+      animation: moveGrid 20s linear infinite;
+      z-index: 0;
+    }
+
+    @keyframes moveGrid {
+      from { background-position: 0 0; }
+      to { background-position: 400px 400px; }
+    }
+
+    header > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 60px;
+    }
+
+    nav a {
+      margin-left: 24px;
+      font-weight: 500;
+    }
+
+    h1 {
+      font-size: 2.6rem;
+      max-width: 800px;
+    }
+
+    .highlight {
+      color: var(--accent);
+    }
+
+    .hero-desc {
+      margin-top: 20px;
+      max-width: 720px;
+      color: var(--text-sub);
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 28px;
+      background: var(--accent);
+      color: #062726;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+
+    section p {
+      color: var(--text-sub);
+      max-width: 900px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: var(--bg-card);
+      padding: 24px;
+      border-radius: 10px;
+      border: 1px solid rgba(29,211,176,0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    footer {
+      padding: 60px 10%;
+      background: #071421;
+      text-align: center;
+      color: var(--text-sub);
+    }
+
+    .small {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <strong>AI Prompt Engineering</strong>
+    <div>
+      <a href="#about">About</a>
+      <a href="#services">Dịch vụ</a>
+      <a href="#projects">Dự án</a>
+      <a href="#news">Tin AI</a>
+      <a href="#contact">Liên hệ</a>
+    </div>
+  </nav>
+
+  <h1>
+    Thiết kế <span class="highlight">Prompt Engineering Full-Package</span><br>
+    giúp SME ngành sức khoẻ & làm đẹp tăng doanh thu bằng AI
+  </h1>
+
+  <p class="hero-desc">
+    Giải pháp Prompt Engineering chuyên sâu cho nha khoa, spa, chăm sóc sức khoẻ, chữa lành.
+    Chuẩn hoá AI – tự động hoá marketing – tối ưu vận hành cho SME tại TP.HCM.
+  </p>
+
+  <a href="#contact" class="cta">Nhận tư vấn miễn phí</a>
+</header>
+
+<section id="about">
+  <h2>About</h2>
+  <p>
+    Tôi chuyên thiết kế hệ Prompt Engineering chuẩn hoá cho doanh nghiệp SME ngành dịch vụ
+    – giúp AI hiểu đúng ngành, đúng khách hàng, đúng hành vi mua.
+    Không chỉ là prompt, mà là <strong>hệ thống tư duy AI vận hành được trong thực tế</strong>.
+  </p>
+</section>
+
+<section id="services">
+  <h2>Dịch vụ</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Prompt Strategy</h3>
+      <p>Xây dựng bộ prompt cốt lõi theo ngành: nha khoa, spa, chăm sóc sức khoẻ.</p>
+    </div>
+    <div class="card">
+      <h3>AI Marketing Prompt</h3>
+      <p>Prompt cho content, ads, chatbot, tư vấn khách hàng chuẩn hành vi mua.</p>
+    </div>
+    <div class="card">
+      <h3>AI Workflow</h3>
+      <p>Kết nối prompt thành quy trình làm việc tự động cho đội ngũ SME.</p>
+    </div>
+    <div class="card">
+      <h3>Training & Handover</h3>
+      <p>Đào tạo đội ngũ sử dụng AI đúng cách – dễ dùng – không lệ thuộc.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Dự án tiêu biểu</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Chuỗi Spa tại Q.3</h3>
+      <p>Tăng 42% tỷ lệ chốt booking nhờ AI tư vấn & kịch bản prompt bán hàng.</p>
+    </div>
+    <div class="card">
+      <h3>Phòng khám nha khoa</h3>
+      <p>Chuẩn hoá AI trả lời khách – giảm 60% thời gian tư vấn thủ công.</p>
+    </div>
+  </div>
+</section>
+
+<section id="news">
+  <h2>Tin AI</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Prompt Engineering không còn là “viết câu hỏi”</h3>
+      <p>2026 là thời điểm SME cần hệ prompt chuẩn hoá để cạnh tranh thật sự.</p>
+    </div>
+    <div class="card">
+      <h3>AI đang thay đổi ngành dịch vụ sức khoẻ</h3>
+      <p>Từ tư vấn, chăm sóc khách hàng đến upsell – AI làm tốt hơn con người nếu dùng đúng.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Liên hệ</h2>
+  <p>
+    📍 TP.HCM <br>
+    📧 Email: your@email.com <br>
+    📞 Hotline/Zalo: 0xxx xxx xxx <br>
+    📌 <a href="#">Google Map doanh nghiệp</a>
+  </p>
+</section>
+
+<footer>
+  <p class="small">
+    © 2026 Prompt Engineering Solutions – AI for SME Health & Beauty
+  </p>
+</footer>
+
+</body>
+</html>
